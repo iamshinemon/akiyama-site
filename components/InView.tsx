@@ -5,7 +5,7 @@ type InViewProps = {
   children: React.ReactNode;
   delay?: number;
   className?: string;
-  as?: keyof JSX.IntrinsicElements;
+  as?: React.ElementType;
 };
 
 export default function InView({ children, delay = 0, className = "", as: Tag = "div" }: InViewProps) {

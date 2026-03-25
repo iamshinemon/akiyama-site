@@ -230,7 +230,7 @@ export default function Home() {
           </div>
           <InView delay={0.2}>
             <div className="flex flex-col gap-4 flex-shrink-0">
-              <Button href="/contact" variant="light">
+              <Button href="/contact" variant="ghost">
                 Start a Conversation &rarr;
               </Button>
               <p className="text-[11px] text-white/20 text-center">
